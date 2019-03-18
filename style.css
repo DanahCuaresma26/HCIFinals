@@ -6,9 +6,9 @@ body{
 	font-family:'Moon Flower';
 	font-size: 22px;
 }
-.act{
-	width: 390px;
-	height: 400px;
+.log{
+	width: 350px;
+	height: 350px;
 	background: lightblue;
 	color: black;
 	top: 60%;

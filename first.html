@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title> Website </title>
+		
+		<link rel="stylesheet" href="first.css">
+
+	</head>
+	
+	<body>
+		<div class="header">
+			<div class="header-container">
+			<img src="1.png" style = "width:200px; height:200px;"> 
+				<h1 class="title"></h1>
+				</div>
+				<div>
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="women.html">Women</a></li>
+					<li><a href="men.html">Mens</a></li>
+					<li><a href="up.html">Sign-up</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="landing-section">
+			<h2 class="caption">
+			</h2>
+		</div>
+		<body>
+
+<h2></h2>
+<p> Women's Section</p>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="one.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="two.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="three.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="four.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="five.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="six.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="seven.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="eight.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="nine.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="ten.jpg" style="width:80%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script> 
+			</p>
+			</div>
+		</div>
+			<div class="footer">Copyright @ 2018 Developed by Danah</div>
+	</body>
+</html>
+				

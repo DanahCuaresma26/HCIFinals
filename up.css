@@ -2,7 +2,7 @@ h1{
     width: fit-content;
     margin: 0 auto;
     margin-top: 2px;
-    color: white;
+    color: black;
 }
 body{
   height: 80%;
@@ -15,7 +15,7 @@ body{
 h2{
     text-align: center;
     margin-bottom: 10px;
-    color: white;
+    color: black;
 }
 .nav{
     list-style: none;
@@ -55,79 +55,47 @@ h2{
   color:white; 
   box-shadow: 15px 15px grey;
 }
-.firstname{
+.name-holder{
     border-radius: 20px;
     text-align: left;
     color: white;
-}
-.middlename{
     border-radius: 20px;
-    text-align: left;
-    color: white;
-}
-.lastname{
-    border-radius: 20px;
-    text-align: left;
-    color: white;
-}
-.email{
-  border-radius: 20px;
-  width: 250px;
-  text-align: left;
-}
-.dob{
-  border-radius: 20px;
-  width: 250px;
-  margin-left: 50px;
-  }
-  .agenum{
-  border-radius: 10px;
-  width: 100px;
-  }
-.pswrd{
-  border-radius: 20px;
-  width: 250px;
-  height: 20px;
-}
-.button{
-  margin-left: 9px;
-  margin-bottom: 50;
-  width:130px;
 }
 .name-holder{
   margin-top: 0px;
   margin-right: 30px;
+  border-radius: 20px;
 }
 .name-holder div{
   float: left;
   margin-right: 10px;
   margin-left: 40px;
+  border-radius: 20px;
 }
 .name-holder2{
   margin-top: 0px;
   margin-right: 30px;
+  border-radius: 20px;
 }
 .name-holder2 div{
   float: right;
   margin-right: 60px;
   margin-left: 40px;
+  border-radius: 20px;
 }
 .button{
   text-align: center;
   width: 150px;
   margin-right: auto;
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 .name-holder3{
   margin-top:-80px;
+  border-radius: 20px;
 }
 .name-holder3 div{
   float: left;
   margin-right: 60px;
   margin-left: -40px;
-}
-.eadd{
-  border-radius: 10px;
-  width: 250px;
-  height: 20px;
 }
